@@ -65,9 +65,21 @@ const Contact = () => {
                             ></textarea>
                             <button className="btn">Submit</button>
                             <Toaster 
-                                position="bottom-left"
-                                reverseOrder={false}
-                                
+                                containerStyle= {{
+                                    position: 'relative',
+                                    top: '-8px',
+                                    inset: '0px',                                                                  
+                                    }}
+                               toastOptions={{
+                                className: '',
+                                style: {
+                                    width: '35%',
+                                    height: '30%',
+                                    borderBlockStyle: '1px solid #03f9f9',
+                                    backgroundColor: '#020a42',
+                                    color: '#fff',                                  
+                                   },
+                                }}                              
                             />
                         </form>
                     </div>
