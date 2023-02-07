@@ -462,6 +462,15 @@
     display: grid;
 }
 
+.about-box .item a{    
+    text-decoration: none;
+    color: #fff;
+}
+
+.about-box .item a:hover{
+    color: #f0f307;
+} 
+
 .icon > * {
     fill: #03f9f9;
 }

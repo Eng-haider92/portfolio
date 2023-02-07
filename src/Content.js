@@ -72,7 +72,7 @@ export const content = {
          and finally deploy the application`,
         birthday: '22-3-1992',
         age: '31',
-        website: 'www.haider.com',
+        website: 'https://Eng-haider92.github.io/portfolio',
         phone: '+963 935 662 976',
         city: 'Damascus, SY',
         degree: 'Bachalores',

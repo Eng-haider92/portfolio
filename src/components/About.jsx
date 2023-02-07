@@ -45,7 +45,7 @@ function About (){
                             <IconContext.Provider value={{ className: 'icon'}}>
                                 <SiWebmoney />
                             </IconContext.Provider>
-                            <p>Website: <span>{about.website}</span></p>
+                            <p>Website: <a href={about.website}><span>www.myWebsite.com</span></a></p>
                             <IconContext.Provider value={{ className: 'icon'}}>
                                 <GrCertificate />
                             </IconContext.Provider>
