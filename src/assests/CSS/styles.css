@@ -681,16 +681,6 @@ input{
     font-size: 1.2rem;
 }
 
-.toast-msg{
-    width: 20%;
-    height: 10%;
-    border: 1px solid #03f9f9;
-    background-color: #020a42;
-    color: #fff;
-    position: relative !important;
-    inset: 0px !important;
-}
-
 .footer-box{
     display: grid;
     grid-template-rows: 49px 25px 437px;
